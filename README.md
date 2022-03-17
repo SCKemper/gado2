@@ -10,10 +10,9 @@ https://github.com/KBNLresearch/gado2/blob/main/run_ner.py#L157
 https://github.com/KBNLresearch/gado2/blob/main/ner_paper.py#L21
 
 
-The data/train.txt is a combination of Conll-2002 and input from various Indonesian / Dutch newspapers,
-this is not the final set used for evaluation, more info soon..
+The data/train.txt is a combination of Conll-2002 and input from various Indonesian / Dutch newspapers and manuscripts,
 
-The transformer used to make trainng files from (Prima) page-xml is also included (pagexml_to_bio.py).
+The transformer used to make training files from (Prima) page-xml is also included (pagexml_to_bio.py).
 In this project we used export pagexml files from: https://transkribus.eu/.
 
 Trained models are available here: https://huggingface.co/willemjan/
@@ -33,7 +32,7 @@ $ rm -rf out_base # Remove old trained model.
 
 The page-xml export: https://readcoop.eu/transkribus/howto/how-to-export-documents-from-transkribus/
 
-Download and unack the export zip, and look for the 'page' directory.
+Download and unpack the export zip, and look for the 'page' directory.
 
 Convert the page-xml to the bio format using the following command:
 
